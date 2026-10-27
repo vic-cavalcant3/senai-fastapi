@@ -52,7 +52,7 @@ jobs:
             viccavalcante/senai_fastapi:latest
             viccavalcante/senai_fastapi:${{ github.sha }}
 
-    Deploy:
+  Deploy:
     name: Implantação AWS
     runs-on: ubuntu-latest
     needs: Imagem
